@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim</title>
+    <link rel="icon" type="image/png" href="logo/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <base href="images/" />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <img
+        src="gifs/loading.gif"
+        alt="Site yükleniyor..."
+        class="loading-gif"
+      />
+    </div>
+    <header>
+      <section>
+        <a href="../index.html" class="logo-link">
+          <img src="logo/logo.png" alt="Siber Çaycılar Logo" />
+          <h1 style="font-family: Oswald">Siber Çaycılar</h1>
+        </a>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Anasayfa</a></li>
+          <li><a href="../products.html">Ürünler</a></li>
+          <li><a href="../sss.html">S.S.S</a></li>
+          <li><a href="../about.html">Hakkımızda</a></li>
+          <li><a href="../contact.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <div class="theme-switch-wrapper" style="width: 100px" ;>
+        <button
+          id="theme-toggle-btn"
+          class="theme-toggle-button"
+          aria-label="Temayı Değiştir"
+        >
+          <span class="icon sun-icon">☀️</span>
+          <span class="icon moon-icon">🌙</span>
+        </button>
+      </div>
+      <a href="" class="shop-button">Mağaza</a>
+    </header>
+    <main>
+      <div class="container">
+        <div class="contact-sidebar">
+          <h2>İletişim Bilgileri</h2>
+          <div class="contact-option" data-target="whatsapp">
+            <img src="icons/social.png" alt="WhatsApp" />
+            <span>WhatsApp</span>
+          </div>
+          <div class="contact-option" data-target="mail">
+            <img src="icons/envelope.png" alt="Mail" />
+            <span>E-posta Gönder</span>
+          </div>
+          <div class="contact-option" data-target="phone">
+            <img src="icons/telephone.png" alt="Telefon" />
+            <span>Bizi Ara</span>
+          </div>
+          <div class="contact-option" data-target="address">
+            <img src="icons/inst.png" alt="Instagram" />
+            <span>Instagram Adresimiz</span>
+          </div>
+        </div>
+        <div class="contact-content">
+          <div id="whatsapp" class="content-panel active">
+            <h3>WhatsApp ile İletişim</h3>
+            <p>
+              WhatsApp üzerinden bize ulaşmak için aşağıdaki butona tıklayın
+              veya QR kodu tarayın:
+            </p>
+            <a
+              href="https://wa.me/905XXXXXXXXX"
+              target="_blank"
+              class="whatsapp-button"
+              >WhatsApp'tan Yaz</a
+            >
+          </div>
+          <div id="mail" class="content-panel">
+            <h3>E-posta ile İletişim</h3>
+            <form
+              class="contact-form"
+              action="mailto:sibercaycilar@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Adınız Soyadınız"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-posta Adresiniz"
+                required
+              />
+              <input type="text" name="subject" placeholder="Konu" required />
+              <textarea
+                name="message"
+                placeholder="Mesajınız"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit">Gönder</button>
+            </form>
+          </div>
+          <div id="phone" class="content-panel">
+            <h3>Telefon ile İletişim</h3>
+            <p>Bize aşağıdaki numaradan ulaşabilirsiniz:</p>
+            <p class="phone-number">+90 (XXX) XXX XX XX</p>
+            <p>Çalışma saatlerimiz: Hafta içi 09:00 - 19:00</p>
+          </div>
+          <div id="address" class="content-panel">
+            <h3>Instagram Adresimiz</h3>
+            <p>
+              <a href="https://www.instagram.com/sibercaycilar/"
+                >https://www.instagram.com/sibercaycilar/</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-colums">
+        <div class="footer-colom">
+          <img src="logo/logo.png" alt="" />
+          <p>
+            Siber güvenlik alanında kaliteli eğitimler, kitler ve geliştirme
+            materyalleri sunuyoruz. Güvenli dijital dünya için birlikte
+            çalışıyoruz.
+          </p>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Hızlı Erişim</li>
+            <li><a href="../index.html">Anasayfa</a></li>
+            <li><a href="../products.html">Ürünler</a></li>
+            <li><a href="../sss.html">S.S.S</a></li>
+            <li><a href="../about.html">Hakkımızda</a></li>
+            <li><a href="../contact.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Kategoriler</li>
+            <li><a href="../products.html">Eğitimler</a></li>
+            <li><a href="../products.html">Eğitim Kitleri</a></li>
+            <li><a href="../products.html">Kart Kitleri</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Politakalar</li>
+            <li><a href="">Satış Politakası</a></li>
+            <li><a href="">Gizlilik Politakası</a></li>
+            <li><a href="">Kargo Politakası</a></li>
+            <li><a href="">İade Politakası</a></li>
+            <li><a href="">Hizmet Şartları</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>İletişim</li>
+            <li>
+              <a href="mailto:sibercaycilar@gmail.com?subject=iletişim"
+                >info@sibercaycilar.com</a
+              >
+            </li>
+            <li>+90 555 123 45 67</li>
+            <!-- <li>Örnek Mah. Örnek Cad. No: 123</li> -->
+            <li>İstanbul, Türkiye</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../contact-script.js"></script>
+    <script src="../loader.js"></script>
+    <script src="../dark-mode.js"></script>
+    <script src="../mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+main {
+  border-top: 0.3px solid rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode main {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.3);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+body.dark-mode .section-header h2 {
+  color: var(--dark-mode-text);
+}
+
+.accordion-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+body.dark-mode .accordion-container {
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+  background-color: var(--dark-mode-header-footer-bg);
+}
+
+.accordion-item {
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  padding: 0;
+}
+
+body.dark-mode .accordion-item {
+  background-color: var(--dark-mode-header-footer-bg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  display: block;
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #0e0d0d;
+  list-style: none;
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+body.dark-mode .accordion-header {
+  color: var(--dark-mode-text);
+}
+
+.accordion-header:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+body.dark-mode .accordion-header:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.accordion-item > .accordion-header::marker,
+.accordion-item > .accordion-header::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-header {
+  position: relative;
+}
+
+.accordion-header::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ce1427;
+}
+
+.accordion-item[open] .accordion-header::after {
+  content: "-";
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion-content {
+  padding: 0 20px 15px 20px;
+  line-height: 1.6;
+  color: #050505;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+body.dark-mode .accordion-content {
+  color: var(--dark-mode-text);
+}
+
+.accordion-box {
+  background: linear-gradient(110deg, #eb2121, #f5f2f2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  min-height: 250px;
+  border: 2px solid #cccccc;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  backdrop-filter: blur(5px) saturate(20%);
+  -webkit-backdrop-filter: blur(5px) saturate(20%);
+}
+
+body.dark-mode .accordion-box {
+  background: linear-gradient(110deg, var(--cre-red), var(--dark-mode-bg));
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.accordion-box:hover {
+  transition: all ease 0.8s;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  -ms-transition: all ease 0.8s;
+  -o-transition: all ease 0.8s;
+  box-shadow: 0 0 10px black;
+}
+
+body.dark-mode .accordion-box:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.accordion-box h1 {
+  color: #333333;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+body.dark-mode .accordion-box h1 {
+  color: var(--dark-mode-text);
+}
+
+.accordion-box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 500px;
+  letter-spacing: 0.5px;
+}
+
+body.dark-mode .accordion-box p {
+  color: var(--dark-mode-text);
+}
+
+.accordion-box a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ce1427;
+  transition: color 0.3s ease;
+}
+
+.accordion-box a:hover {
+  color: #bb1224;
+}
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 32px;
+  }
+
+  .accordion-container {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .accordion-box {
+    width: 90%;
+    padding: 20px 15px;
+  }
+
+  .accordion-box h1 {
+    font-size: 28px;
+  }
+}

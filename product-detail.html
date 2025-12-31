@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Recep Yıldız" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürün Detayı</title>
+    <link rel="icon" type="image/png" href="images/logo/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="product-detail-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <img
+        src="images/gifs/loading.gif"
+        alt="Site yükleniyor..."
+        class="loading-gif"
+      />
+    </div>
+    <header>
+      <section>
+        <a href="../index.html" class="logo-link">
+          <img src="images/logo/logo.png" alt="Siber Çaycılar Logo" />
+          <h1 style="font-family: Oswald">Siber Çaycılar</h1>
+        </a>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Anasayfa</a></li>
+          <li><a href="../products.html">Ürünler</a></li>
+          <li><a href="../sss.html">S.S.S</a></li>
+          <li><a href="../about.html">Hakkımızda</a></li>
+          <li><a href="../contact.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <div class="theme-switch-wrapper" style="width: 100px" ;>
+        <button
+          id="theme-toggle-btn"
+          class="theme-toggle-button"
+          aria-label="Temayı Değiştir"
+        >
+          <span class="icon sun-icon">☀️</span>
+          <span class="icon moon-icon">🌙</span>
+        </button>
+      </div>
+      <a href="" class="shop-button">Mağaza</a>
+    </header>
+    <main>
+      <div id="product-detail-container" class="product-detail-container"></div>
+    </main>
+    <footer>
+      <div class="footer-colums">
+        <div class="footer-colom">
+          <img src="images/logo/logo.png" alt="" />
+          <p>
+            Siber güvenlik alanında kaliteli eğitimler, kitler ve geliştirme
+            materyalleri sunuyoruz. Güvenli dijital dünya için birlikte
+            çalışıyoruz.
+          </p>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Hızlı Erişim</li>
+            <li><a href="../index.html">Anasayfa</a></li>
+            <li><a href="../products.html">Ürünler</a></li>
+            <li><a href="../sss.html">S.S.S</a></li>
+            <li><a href="../about.html">Hakkımızda</a></li>
+            <li><a href="../contact.html">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Kategoriler</li>
+            <li><a href="../products.html">Eğitimler</a></li>
+            <li><a href="../products.html">Eğitim Kitleri</a></li>
+            <li><a href="../products.html">Kart Kitleri</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>Politakalar</li>
+            <li><a href="">Satış Politakası</a></li>
+            <li><a href="">Gizlilik Politakası</a></li>
+            <li><a href="">Kargo Politakası</a></li>
+            <li><a href="">İade Politakası</a></li>
+            <li><a href="">Hizmet Şartları</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-colom">
+          <ul>
+            <li>İletişim</li>
+            <li>
+              <a href="mailto:sibercaycilar@gmail.com?subject=iletişim"
+                >info@sibercaycilar.com</a
+              >
+            </li>
+            <li>+90 555 123 45 67</li>
+            <!-- <li>Örnek Mah. Örnek Cad. No: 123</li> -->
+            <li>İstanbul, Türkiye</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="loader.js"></script>
+  <script src="product-detail-script.js"></script>
+  <script src="dark-mode.js"></script>
+  <script src="mobile-menu.js"></script>
+  <script>
+    let slideIndex = 1;
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+      if (n > slides.length) slideIndex = 1;
+      if (n < 1) slideIndex = slides.length;
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "is_best_seller": true,
+    "name": "NodeMCU Deauther: Hızlı Başlangıç Eğitim Seti",
+    "description": "IoT projeleri için Wi-Fi özellikli uygun fiyatlı geliştirme kartı.",
+    "description2": "Siber güvenliğe sadece kitap okuyarak değil, sahada uygulama yaparak başlamak isteyenler için tasarlandı. Bu kit, karmaşık Linux terminalleriyle veya pahalı ekipmanlarla uğraşmadan, bir Wi-Fi ağının zafiyetlerini nasıl tespit edebileceğinizi size pratik olarak gösterir. Siber Çaycılar'ın özel olarak konfigüre ettiği bu donanımla, teorik bilgiyi fiziksel bir tecrübeye dönüştürün.\n\n<span class=\"bolder\">Neden Bu Seti Almalısın?</span>\n\n• Anında Uygulama: Cihaz eline ulaştığı an, içinde yüklü gelen özel firmware sayesinde saniyeler içinde çevre ağları taramaya başlayabilirsin.\n\n• Protokolün Mantığı: Eğitim içeriğimiz sana sadece \"tuşa basmayı\" değil; 802.11 yönetim paketlerinin (management frames) nasıl manipüle edildiğini ve cihazların ağdan nasıl düşürüldüğünü gösterir.\n\n• Taşınabilir Güç: Bir powerbank ile her yerde çalışabilen, avucuna sığan bir siber güvenlik laboratuvarına sahip olursun.\n\n<span class=\"bolder\">Teknik Kabiliyetler:</span>\n\n• Deauthentication Attacks: Hedef cihazların modemle olan bağlantısını test amaçlı kesme.\n\n• Beacon Spamming: Çevrede binlerce sahte Wi-Fi ağı oluşturarak karmaşa yaratma simülasyonu.\n\n• Probe Request Monitoring: Yakındaki cihazların hangi ağlara bağlandığını pasif olarak izleme.\n\n<span class=\"text-red bolder\">Siber Çaycılar Güvencesi:</span> \"Ürünü aldım ama çalıştıramadım\" derdi yok. Kartlarımız tek tek test edilip, stabilite kontrolünden geçerek \"demlenmiş\" bir şekilde sana gönderilir.",
+    "price": 650.45,
+    "category": "Kart Kit",
+    "image": "products/nodemcu.png",
+    "shopLink": "https://magaza.sibercaycilar.com/urun/nodemcu-deauther-hizli-baslangic",
+    "images": [
+      "products/nodemcu.png",
+      "products/nodemcu2.png",
+      "products/nodemcu3.png"
+    ]
+  },
+  {
+    "id": 2,
+    "is_best_seller": true,
+    "name": "NodeMCU Deauther: Master Code & Yazılım Mühendisliği Eğitim Seti",
+    "description": "Siber güvenlik mekanizmalarını kod düzeyinde öğrenmek isteyenler için ileri seviye eğitim seti.",
+    "description2": "Ürün Tanıtımı: Sadece araçları kullanan bir operatör olmaktan sıkıldınız mı? Gerçek bir uzman, kullandığı aracın her bir satır koduna hakim olan kişidir. Bu set, siber güvenlik mekanizmalarını donanım seviyesinde inşa etmek ve kendi özel saldırı/savunma senaryolarını kodlamak isteyenler için geliştirildi. Siber Çaycılar’ın özel \"Master Code\" kütüphanesiyle, yazılımın siber güvenlikle nasıl birleştiğini en derin noktasına kadar öğreneceksiniz.\n\n<span class=\"bolder\">Neden Bu Seti Almalısın?</span>\n\n• Kodun Mimarı Ol: Standart yazılımların sınırlarına takılıp kalma. Bu setle, fonksiyonları nasıl baştan yazacağını ve optimize edeceğini öğrenerek kendi özel siber güvenlik araçlarını geliştirebilirsin.\n\n• Derinlemesine Analiz: Sadece \"ne olduğunu\" değil, \"nasıl olduğunu\" keşfet. C++ ve Arduino tabanlı özel kaynak kodlarımızı satır satır inceleyerek, paketlerin havada nasıl uçuştuğunu kod düzeyinde göreceksin.\n\n• Yazılım Sektörüne Giriş: Bu set sadece bir güvenlik kiti değil, aynı zamanda bir gömülü sistemler yazılım kampıdır. Siber güvenlik bilginizi, yazılım geliştirme yeteneğiyle birleştirerek sektörde bir adım öne geçersin.\n\n<span class=\"bolder\">Teknik Kabiliyetler:</span>\n\n• Custom Source Code Access: Siber Çaycılar tarafından optimize edilmiş, verimliliği artırılmış ve yorum satırlarıyla açıklanmış özel kaynak kodlarına tam erişim.\n\n• Advanced Logic Development: Deauther fonksiyonlarını özelleştirme, kendi saldırı metodolojilerini kod bloklarına dökme ve yeni özellikler ekleme.\n\n• Debugging & Optimization: Yazılım ve donanım arasındaki haberleşme hatalarını ayıklama ve düşük güç tüketimli/yüksek verimli kod yazma teknikleri.\n\n<span class=\"text-red bolder\">Siber Çaycılar Güvencesi:</span> Geliştirici dünyasına adım atarken yalnız değilsin. Bu setle birlikte gelen özel kod kütüphanesi, sürekli güncellenen ve en stabil haliyle sana sunulan, siber güvenliğin \"mutfağından\" çıkma profesyonel bir içeriktir.",
+    "price": 850.45,
+    "category": "Kart Kit",
+    "image": "products/nodemcu2_1.png",
+    "image2": "products/nodemcu2_1_k.png",
+    "shopLink": "https://magaza.sibercaycilar.com/urun/nodemcu-deauther-master-code",
+    "images": [
+      "products/nodemcu2_1.png",
+      "products/nodemcu2_2.png",
+      "products/nodemcu2_3.png"
+    ],
+    "images2": [
+      "products/nodemcu2_1_k.png",
+      "products/nodemcu2_2_k.png",
+      "products/nodemcu2_3_k.png"
+    ]
+  },
+  {
+    "id": 3,
+    "is_best_seller": true,
+    "name": "Tak Çalıştır Kali Linux Usb Eğitim Kiti",
+    "description": "Kurulumla uğraşma, doğrudan aksiyona geç! Tak-çalıştır Kali Linux ve özel eğitim rehberiyle siber güvenliğe en hızlı yolu seç",
+    "description2": "Siber güvenliğin en güçlü işletim sistemi olan Kali Linux’u kurmakla, driver hatalarıyla veya bilgisayarını bozma korkusuyla vakit kaybetme! Bu eğitim kiti, cebinde taşıyabileceğin eksiksiz bir siber güvenlik istasyonudur. USB’yi herhangi bir bilgisayara tak, çalıştır ve saniyeler içinde profesyonel araçların dünyasına giriş yap. Yanında gelen özel eğitim rehberiyle, \"Şimdi ne yapacağım?\" sorusunu ortadan kaldırıyoruz.\n\n<span class=\"bolder\">Neden Bu Seti Almalısın?</span>\n\n• Kurulum Derdine Son: Bilgisayarına format atmana veya sanal makine kurmana gerek yok. USB üzerinden doğrudan (Live Boot) çalışır, kendi sistemine asla zarar vermez.\n\n• Kalıcı Hafıza Özelliği: Yaptığın tüm çalışmalar, yüklediğin yeni araçlar ve kaydettiğin dosyalar USB içinde saklanır. Kapatıp açtığında hiçbir verini kaybetmezsin.\n\n• Her Yerde Seninle: Kendi özel çalışma ortamını okulda, iş yerinde veya internet kafede; her türlü bilgisayarda güvenle kullanabilirsin.\n\n<span class=\"bolder\">Teknik Kabiliyetler:</span>\n\n• Hazır Araç Takımı: Sızma testleri, ağ analizleri ve şifre kırma testleri için yüzlerce araç önceden yapılandırılmış olarak gelir.\n\n• Yazılımcı ve Siberci Dostu: Python, C++, Java gibi dillerde kod yazmak ve test etmek için gerekli tüm ortam hazır durumdadır.\n\n• Donanım Tanıma: En güncel Wi-Fi kartları ve ağ donanımlarıyla tam uyumlu özel çekirdek (kernel) yapısı.\n\n<span class=\"text-red bolder\">Siber Çaycılar Güvencesi:</span> \"USB'yi taktım ama bilgisayar görmedi\" gibi sorunlar yaşamaman için her bir ürün tek tek kontrol ediliyor. İçindeki Siber Çaycılar'a özel \"Hızlı Başlangıç Rehberi\" ile çayını yudumlarken ilk komutunu yazmaya başlayacaksın.",
+    "price": 699.0,
+    "category": "Eğitim Kit",
+    "image": "products/kaliusb.png",
+    "shopLink": "https://magaza.sibercaycilar.com/urun/kali-linux-usb-egitim",
+    "images": [
+      "products/kaliusb.png",
+      "products/kaliusb2.png",
+      "products/kaliusb3.png"
+    ]
+  }
+]

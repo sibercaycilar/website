@@ -52,11 +52,6 @@ body.dark-mode .sidebar h2 {
   list-style: none;
   padding: 0;
 }
-
-.category-list li {
-  margin-bottom: 10px;
-}
-
 .category-list button {
   background: none;
   border: none;

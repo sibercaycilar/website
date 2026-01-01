@@ -81,7 +81,7 @@ class ProductManager {
       }
     }
 
-    const detailUrl = `../product-detail.html?id=${id}`;
+    const detailUrl = `product-detail.html?id=${id}`;
 
     return `
             <article class="product-card" data-product="${this.slugify(name)}">
